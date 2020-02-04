@@ -67,7 +67,7 @@ h1{
 }
 
 
-/*Conteneur exercice 2 à 5 */
+/*Conteneur mise en page 2 à 5 */
 
 .conteneur {
     height: 250px;
@@ -300,13 +300,13 @@ h1{
     }
     10% {
         background: rgb(105, 105, 255);
-        top: 160px;
+        top: 145px;
         left: 380px;
         transform: rotate(360deg);
     }
     25% {
         background: rgb(116, 255, 116);
-        top: 160px;
+        top: 145px;
         left: 0;
         transform: rotate(720deg);
     }
@@ -324,13 +324,13 @@ h1{
     }
     60% {
         background: rgb(105, 105, 255);
-        top: 160px;
+        top: 145px;
         left: 380px;
         transform: rotate(1800deg);
     }
     75% {
         background: rgb(116, 255, 116);
-        top: 160px;
+        top: 145px;
         left: 0;
         transform: rotate(2160deg);
     }
@@ -350,7 +350,7 @@ h1{
 }
 
 /*EXERCICE 6 */
-/*Conteneur 6 */
+
 .conteneur3d {
     position: relative;
     width: 500px;
