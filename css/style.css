@@ -47,7 +47,7 @@ h1{
 
 /*EXERCICE 1 */
 #nav {
-    width: 80px;
+    width: 75px;
     height: 50px;
     background-color: black;
     border-radius: 10px;
@@ -66,11 +66,6 @@ h1{
     height: 900px;
 }
 
-section {
-    box-sizing: border-box;
-    display: block ;
-    flex-direction: column;
-}
 
 /*Conteneur exercice 2 à 5 */
 
@@ -87,6 +82,7 @@ section {
 .conteneur h2 {
     text-align: center;
     color: black;
+    font-family: 'Sigmar One', cursive;
     margin-top: 30px;
 }
 
@@ -262,6 +258,9 @@ section {
     text-align: center;
     border: solid black 1px;
 }
+.conteneurcc h2{
+    font-family: 'Sigmar One', cursive;
+}
 
 #cun {
     animation-duration: 15s;
@@ -361,6 +360,7 @@ section {
     padding: 5px;
     margin-left: 120px;
     margin-bottom: 40px;
+    font-family: 'Sigmar One', cursive;
     border: solid black 1px;
 }
 
