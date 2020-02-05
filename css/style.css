@@ -375,7 +375,7 @@ h1{
     transform-style: preserve-3d;
     top: 150px;
     left: 110px;
-    animation: caroussel3D 4s infinite linear;
+    animation: caroussel3D 4s infinite linear, carousselrotate 4s infinite linear;
 }
 
 #caroussel div {
@@ -461,6 +461,12 @@ h1{
         top: 150px;
         left: 110px;
     }
+}
+
+
+@keyframes carousselrotate {
+    0%{transform: rotateY(0deg) rotateX(0deg);}
+    100%{transform: rotateY(360deg) rotateX(360deg);}
 }
 
 /* mise en page */
